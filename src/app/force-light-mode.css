@@ -1,0 +1,57 @@
+/* Questo file contiene regole CSS per forzare la modalità chiara 
+   e prevenire cambiamenti di layout quando i dispositivi passano alla modalità notte */
+
+/* Forza il color-scheme per l'intero sito */
+:root, html, body {
+  color-scheme: light only !important;
+}
+
+/* Forza colori di sfondo e testo in modalità chiara */
+html.light, body {
+  background-color: #ffffff !important;
+  color: #171717 !important;
+}
+
+/* Consenti le transizioni esplicite di opacità per il carousel delle immagini,
+   ma disabilita le transizioni automatiche di tema che potrebbero causare problemi */
+*:not([class*="transition-opacity"]) {
+  transition: none !important;
+}
+
+/* Eccezione per permettere le transizioni di opacità esplicitamente definite */
+.transition-opacity {
+  transition-property: opacity !important;
+}
+
+/* Forzare i colori per media query dark mode in vari browser */
+@media (prefers-color-scheme: dark) {
+  html, body {
+    background-color: #ffffff !important;
+    color: #171717 !important;
+  }
+  
+  /* Forzare lo stile degli elementi nativi del browser */
+  input, textarea, select, button {
+    background-color: #ffffff !important;
+    color: #171717 !important;
+    border-color: #e5e7eb !important;
+  }
+}
+
+/* Regole specifiche per Firefox */
+@-moz-document url-prefix() {
+  html, body {
+    background-color: #ffffff !important;
+    color: #171717 !important;
+  }
+}
+
+/* Regole specifiche per Safari */
+@media not all and (min-resolution:.001dpcm) {
+  @supports (-webkit-appearance:none) {
+    html, body {
+      background-color: #ffffff !important;
+      color: #171717 !important;
+    }
+  }
+}
