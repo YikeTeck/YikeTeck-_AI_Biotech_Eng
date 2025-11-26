@@ -121,11 +121,11 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-white shadow-md fixed w-full z-50">
+    <nav className="fixed w-full z-50 bg-white/95 backdrop-blur-sm border-b border-neutral-200/70">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           {/* Logo */}
-          <div className="flex-shrink-0 flex items-center mt-5">
+          <div className="flex-shrink-0 flex items-center py-0">
             <Link 
               href={currentLang === 'it' ? '/' : `/${currentLang}`}
               className="flex items-center"
@@ -133,9 +133,10 @@ export default function Navbar() {
               <Image 
                 src="/images/logoYT.svg" 
                 alt="Yike Teck Logo" 
-                width={330} 
-                height={190} 
+                width={280} 
+                height={130} 
                 priority
+                className="drop-shadow-sm translate-y-[12px]"
               />
             </Link>
           </div>

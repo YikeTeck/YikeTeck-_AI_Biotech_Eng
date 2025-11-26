@@ -241,15 +241,15 @@ export default function AboutUsPage() {
                 </p>
                 
                 <hr className="border-t-2 border-yiketeck-red w-24 my-8" />
-                <h2 className="text-3xl font-bold text-yiketeck-dark mb-6">名字的含义</h2>
+                <h2 className="text-3xl font-bold text-yiketeck-dark mb-6">名字与标志的含义</h2>
                 <p className="mb-6 text-gray-700 leading-relaxed">
-                  “意科”结合了“意（意义/意图）”与“科（科学/技术）”，表达“有目的的科技”。这与我们“让技术真正有意义”的理念一致。
+                  “意科”将“意（意义/意图）”与“科（科学/技术）”结合，表达“有目的的科技”：不是为创新而创新，而是让技术真正改善人们生活的工具。
                 </p>
                 <p className="mb-6 text-gray-700 leading-relaxed">
-                  “Teck” 末尾的 K 是刻意的：与 “Yike” 中的 K 平衡，同时在 LOGO 中引用<strong>晶体管符号</strong>，由首字母 Y 和 T 镜像组合而成。1947 年发明的晶体管推动了电子技术并奠定现代科技基础。
+                  “Teck” 末尾的 K 是刻意的：与 “Yike” 的 K 形成视觉平衡，并唤起我们 LOGO 中的晶体管符号，该符号由首字母 Y 和 T 镜像、组合而成。1947 年发明的晶体管颠覆了电子学、奠定现代科技基础——这是我们宣示自己诞生于那段创新传统的方式。
                 </p>
                 <p className="mb-6 text-gray-700 leading-relaxed">
-                  这一引用强调我们与创新史的联系，也体现我们持续以科技为核心创造价值的决心。
+                  如果纵向观察该符号，晶体管的形态也呼应了汉字“大”（dà），意为“巨大/伟大”。对我们来说，这种双重意涵不仅是图形细节：代表“伟大的科技”——高目标、宽视野，解决重大问题，同时保持务实与以人为本。
                 </p>
               </article>
             </div>

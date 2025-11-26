@@ -241,15 +241,15 @@ export default function AboutUsPage() {
                 </p>
                 
                 <hr className="border-t-2 border-yiketeck-red w-24 my-8" />
-                <h2 className="text-3xl font-bold text-yiketeck-dark mb-6">The meaning of our name</h2>
+                <h2 className="text-3xl font-bold text-yiketeck-dark mb-6">The meaning of our name and our symbol</h2>
                 <p className="mb-6 text-gray-700 leading-relaxed">
-                  In Chinese, <strong>"Yi Ke" (意科)</strong> combines <em>meaning/intent</em> (意) and <em>science/technology</em> (科), conveying “technology with purpose.” It matches our philosophy: tech with real meaning in people’s lives.
+                  In Chinese, “Yi Ke” (意科) combines the characters for meaning/intent (意) and science/technology (科), expressing “technology with a purpose”: not innovation for its own sake, but tools that truly improve people’s lives.
                 </p>
                 <p className="mb-6 text-gray-700 leading-relaxed">
-                  The final <strong>K</strong> in "Teck" is intentional: balancing the K in "Yike" and evoking the <strong>transistor symbol</strong> in our logo, built by mirroring and integrating the initials <strong>Y</strong> and <strong>T</strong>. The transistor, invented in 1947, revolutionized electronics and underpins modern tech.
+                  The final K in “Teck” is deliberate: it balances the K in “Yike” and evokes the transistor symbol in our logo, built by mirroring and integrating the initials Y and T. The transistor, invented in 1947, revolutionized electronics and laid the foundation of modern technology—our way of declaring that we were born inside that tradition of innovation.
                 </p>
                 <p className="mb-6 text-gray-700 leading-relaxed">
-                  This reference underlines our bond with innovation’s history and our commitment to continue along that path, making technology the core of our solutions.
+                  If you look at the symbol, the transistor shape in vertical also echoes the Chinese character “大” (dà), meaning “big.” For us this double layer is not just a graphic detail: it means “big technology”, high ambition, broad vision, and solutions that tackle big problems while remaining concrete and human.
                 </p>
               </article>
             </div>

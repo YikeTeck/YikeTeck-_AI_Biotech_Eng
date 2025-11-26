@@ -246,15 +246,15 @@ export default function ChiSiamoPage() {
                 
                 {/* Sezione "Il significato del nostro nome" aggiornata con la nuova informazione */}
                 <hr className="border-t-2 border-yiketeck-red w-24 my-8" />
-                <h2 className="text-3xl font-bold text-yiketeck-dark mb-6">Il significato del nostro nome</h2>
+                <h2 className="text-3xl font-bold text-yiketeck-dark mb-6">Il significato del nostro nome e del nostro simbolo</h2>
                 <p className="mb-6 text-gray-700 leading-relaxed">
-                  In cinese, <strong>"Yi Ke" (意科)</strong> combina i caratteri di <em>significato/intenzione</em> (意) e <em>scienza/tecnologia</em> (科), trasmettendo il concetto di "tecnologia con uno scopo" o "tecnologia intenzionale". Questo risuona con la nostra filosofia di creare tecnologia che abbia un autentico significato nella vita delle persone.
+                  In cinese, “Yi Ke” (意科) unisce i caratteri di significato/intenzione (意) e scienza/tecnologia (科), esprimendo l’idea di “tecnologia con uno scopo”: non innovazione fine a sé stessa, ma strumenti che migliorano davvero la vita delle persone.
                 </p>
                 <p className="mb-6 text-gray-700 leading-relaxed">
-                  La scelta della <strong>K finale</strong> in "Teck" è deliberata: crea un equilibrio visivo con la K di "Yike" ed evoca simultaneamente il <strong>simbolo del transistor</strong> nel nostro logo, abilmente costruito specchiando e integrando le iniziali <strong>Y</strong> e <strong>T</strong>. Questo transistor, inventato nel 1947, ha rivoluzionato l&apos;elettronica e gettato le basi per tutta la tecnologia moderna.
+                  La scelta della K finale in “Teck” è deliberata: crea un equilibrio visivo con la K di “Yike” ed evoca il simbolo del transistor nel nostro logo, costruito specchiando e integrando le iniziali Y e T. Il transistor, inventato nel 1947, ha rivoluzionato l’elettronica e posto le basi di tutta la tecnologia moderna: è il nostro modo di dichiarare che nasciamo dentro quella tradizione di innovazione.
                 </p>
                 <p className="mb-6 text-gray-700 leading-relaxed">
-                  Questo richiamo al transistor sottolinea il nostro legame con la storia dell&apos;innovazione e rappresenta il nostro impegno a proseguire su quella strada, facendo della tecnologia il cuore delle nostre soluzioni.
+                  Se si osserva il simbolo, la forma in verticale del transistor richiama anche il carattere cinese “大” (dà), che significa “grande”. Per noi questo doppio livello non è un dettaglio grafico: significa “grande tecnologia”, ambizione alta, visione ampia e soluzioni che vogliono affrontare problemi grandi, restando però concrete e umane.
                 </p>
               </article>
             </div>
