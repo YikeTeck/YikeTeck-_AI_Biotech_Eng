@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="40.293129mm"
+   height="44.11993mm"
+   viewBox="0 0 40.293129 44.11993"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="Favicon_YikeTeck.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.42315516"
+     inkscape:cx="444.28148"
+     inkscape:cy="-261.13353"
+     inkscape:window-width="2560"
+     inkscape:window-height="1440"
+     inkscape:window-x="2560"
+     inkscape:window-y="472"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g30"
+     inkscape:lockguides="false" />
+  <defs
+     id="defs1" />
+  <g
+     id="g30"
+     transform="translate(-30.733112,-74.065881)">
+    <path
+       style="font-size:35.7266px;line-height:0px;font-family:Orbitron;-inkscape-font-specification:'Orbitron, Normal';font-variation-settings:'wght' 700;fill-opacity:0.72;stroke:#000000;stroke-width:0;stroke-linejoin:round;paint-order:stroke markers fill"
+       d="m 47.499671,-86.850563 v 0 -9.646182 L 35.638439,-112.57372 h 5.57335 l 8.681564,10.89662 8.574384,-10.89662 h 5.68053 l -11.896958,16.112701 v 9.610456 z"
+       id="text19"
+       transform="scale(1.0213877,-0.97906016)"
+       aria-label="Y" />
+    <path
+       style="font-size:35.7266px;line-height:0px;font-family:Orbitron;-inkscape-font-specification:'Orbitron, Normal';font-variation-settings:'wght' 700;fill:#aa0000;fill-opacity:0.61;stroke:#000000;stroke-width:0;stroke-linejoin:round;stroke-opacity:0.540426;paint-order:stroke markers fill"
+       d="m 47.485056,-75.649979 v 0 -20.971514 H 36.981435 v -4.751637 h 25.723152 v 4.751637 H 52.236693 v 20.971514 z"
+       id="text20"
+       aria-label="T"
+       transform="scale(1.0213877,-0.97906016)" />
+    <path
+       id="path24"
+       style="font-variation-settings:'wght' 700;fill:none;fill-opacity:0.370213;stroke:#a80000;stroke-linejoin:round;stroke-opacity:0.66;paint-order:stroke markers fill"
+       d="M 70.526241,98.181015 A 19.646564,19.504797 0 0 1 50.879677,117.68581 19.646564,19.504797 0 0 1 31.233112,98.181015 19.646564,19.504797 0 0 1 50.879677,78.676218 19.646564,19.504797 0 0 1 70.526241,98.181015 Z" />
+  </g>
+</svg>
