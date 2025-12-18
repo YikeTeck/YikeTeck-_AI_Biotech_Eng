@@ -13,17 +13,22 @@ export function middleware(request) {
     return NextResponse.next();
   }
 
-  // Default language on root
+  // Default language on root - Chinese (ZH) is default for new users
   if (pathname === '/') {
     const url = request.nextUrl.clone();
+
+    // User explicitly chose Italian - stay on root
+    if (savedLang === 'it') {
+      return NextResponse.next();
+    }
+
+    // User explicitly chose English
     if (savedLang === 'en') {
       url.pathname = '/en';
       return NextResponse.redirect(url);
     }
-    if (savedLang === 'it') {
-      return NextResponse.next();
-    }
-    // default zh
+
+    // Default (new users or zh preference) → Chinese
     url.pathname = '/zh';
     return NextResponse.redirect(url);
   }
