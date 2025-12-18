@@ -54,7 +54,7 @@ export const metadata = {
     },
   },
   verification: {
-    google: 'your-google-verification-code',
+    google: '5hZMZBDM0Za9g7CzTZsHe98KmwUPAsy7VcSolzTNHzY',
   },
   other: {
     'color-scheme': 'light only',
