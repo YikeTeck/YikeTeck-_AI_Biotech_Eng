@@ -4,11 +4,11 @@ import './force-light-mode.css'
 export const metadata = {
   metadataBase: new URL('https://www.yiketeck.com'),
   title: {
-    default: 'Yike Teck | AI, Biotech & Smart Engineering Solutions',
+    default: 'Yike Teck | Proprietary AI, Biotech & Advanced Robotics',
     template: '%s | Yike Teck',
   },
-  description: 'Soluzioni innovative in AI, Biotech e Smart City. Speaker ultrasottili, IoT, robotica e prodotti tecnologici avanzati. Sede a Dongguan, Cina.',
-  keywords: ['AI', 'Biotech', 'Smart City', 'IoT', 'Robotics', 'Speakers', 'Yike Teck', 'Dongguan', 'China'],
+  description: 'Shaping the next decade with patented AI technologies, AI-driven biotechnology, and advanced robotics. Engineering tomorrow\'s solutions today. Headquartered in Dongguan, China.',
+  keywords: ['Proprietary AI', 'Patented AI', 'Biotech', 'Biotechnology', 'Robotics', 'Advanced Engineering', 'AI Innovation', 'Yike Teck', 'Dongguan', 'China'],
   authors: [{ name: 'Yike Teck' }],
   creator: 'Yike Teck',
   publisher: 'Yike Teck',
@@ -25,24 +25,24 @@ export const metadata = {
   },
   openGraph: {
     type: 'website',
-    locale: 'it_IT',
+    locale: 'en_US',
     url: 'https://www.yiketeck.com',
     siteName: 'Yike Teck',
-    title: 'Yike Teck | AI, Biotech & Smart Engineering Solutions',
-    description: 'Soluzioni innovative in AI, Biotech e Smart City. Speaker ultrasottili, IoT, robotica e prodotti tecnologici avanzati.',
+    title: 'Yike Teck | Proprietary AI, Biotech & Advanced Robotics',
+    description: 'Shaping the next decade with patented AI technologies, AI-driven biotechnology, and advanced robotics. Engineering tomorrow\'s solutions today. Headquartered in Dongguan, China.',
     images: [
       {
         url: '/YikeTeck_A_poster.webp',
         width: 1200,
         height: 630,
-        alt: 'Yike Teck - Innovative Technology Solutions',
+        alt: 'Yike Teck - Proprietary AI, Biotech & Advanced Robotics',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Yike Teck | AI, Biotech & Smart Engineering Solutions',
-    description: 'Soluzioni innovative in AI, Biotech e Smart City. Speaker ultrasottili, IoT, robotica e prodotti tecnologici avanzati.',
+    title: 'Yike Teck | Proprietary AI, Biotech & Advanced Robotics',
+    description: 'Shaping the next decade with patented AI technologies, AI-driven biotechnology, and advanced robotics. Engineering tomorrow\'s solutions today. Headquartered in Dongguan, China.',
     images: ['/YikeTeck_A_poster.webp'],
   },
   alternates: {
@@ -102,18 +102,18 @@ const jsonLd = {
       '@id': 'https://www.yiketeck.com/#website',
       url: 'https://www.yiketeck.com',
       name: 'Yike Teck',
-      description: 'Innovative solutions for a smarter future',
+      description: 'Shaping the next decade with patented AI technologies, AI-driven biotechnology, and advanced robotics.',
       publisher: {
         '@id': 'https://www.yiketeck.com/#organization',
       },
-      inLanguage: ['it-IT', 'en-US', 'zh-CN'],
+      inLanguage: ['en-US', 'zh-CN', 'it-IT'],
     },
   ],
 }
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="it" className="light">
+    <html lang="en" className="light">
       <head>
         <script
           type="application/ld+json"

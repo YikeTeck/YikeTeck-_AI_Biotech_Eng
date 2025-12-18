@@ -1,29 +1,29 @@
 export const metadata = {
   title: {
-    default: 'Yike Teck | 人工智能、生物技术与智能工程解决方案',
+    default: 'Yike Teck | 专有人工智能、生物技术与先进机器人',
     template: '%s | Yike Teck',
   },
-  description: '创新的人工智能、生物技术和智慧城市解决方案。超薄扬声器、物联网设备、机器人技术和先进科技产品。总部位于中国东莞。',
+  description: '以专利AI技术、人工智能驱动的生物技术和先进机器人技术塑造未来十年。今天构建明天的解决方案。总部位于中国东莞。',
   openGraph: {
     type: 'website',
     locale: 'zh_CN',
     url: 'https://www.yiketeck.com/zh',
     siteName: 'Yike Teck',
-    title: 'Yike Teck | 人工智能、生物技术与智能工程解决方案',
-    description: '创新的人工智能、生物技术和智慧城市解决方案。超薄扬声器、物联网设备、机器人技术和先进科技产品。',
+    title: 'Yike Teck | 专有人工智能、生物技术与先进机器人',
+    description: '以专利AI技术、人工智能驱动的生物技术和先进机器人技术塑造未来十年。今天构建明天的解决方案。总部位于中国东莞。',
     images: [
       {
         url: '/YikeTeck_A_poster.webp',
         width: 1200,
         height: 630,
-        alt: 'Yike Teck - 创新技术解决方案',
+        alt: 'Yike Teck - 专有人工智能、生物技术与先进机器人',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Yike Teck | 人工智能、生物技术与智能工程解决方案',
-    description: '创新的人工智能、生物技术和智慧城市解决方案。超薄扬声器、物联网设备、机器人技术和先进科技产品。',
+    title: 'Yike Teck | 专有人工智能、生物技术与先进机器人',
+    description: '以专利AI技术、人工智能驱动的生物技术和先进机器人技术塑造未来十年。今天构建明天的解决方案。总部位于中国东莞。',
     images: ['/YikeTeck_A_poster.webp'],
   },
   alternates: {
