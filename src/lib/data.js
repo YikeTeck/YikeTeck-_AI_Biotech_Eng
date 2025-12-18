@@ -13,7 +13,7 @@ export const featuredProducts = [
       title: "Super Flat Speakers",
       description: "Diffusori audio ultrasottili con qualità sonora premium per un'esperienza di ascolto perfetta.",
       category: "Audio",
-      imageUrl: "/Super Flat Speaker_Home.webp",
+      imageUrl: "/super_flat_speaker_home.webp",
       slug: "super-flat-speakers"
     },
     {
@@ -21,7 +21,7 @@ export const featuredProducts = [
       title: "Smart Looker",
       description: "Tecnologia smart per monitorare e gestire la tua casa con soluzioni innovative e intuitive.",
       category: "IoT",
-      imageUrl: "/Smart_looker_home.webp",
+      imageUrl: "/smart_looker_home.webp",
       slug: "smart-looker"
     },
     {
@@ -29,7 +29,7 @@ export const featuredProducts = [
       title: "Lampade Stradali Intelligenti",
       description: "Illuminazione urbana a basso consumo con sensori di movimento e controllo remoto.",
       category: "Smart City",
-      imageUrl: "/Smart Street lamps_home.webp",
+      imageUrl: "/smart_street_lamps_home.webp",
       slug: "lampade-stradali-intelligenti"
     }
   ];
@@ -67,7 +67,7 @@ export const allProducts = [
     title: "Smart Trash Bins",
     description: "Innovazioni per la gestione intelligente dei rifiuti urbani con analisi e ottimizzazione.",
     category: "Smart City",
-    imageUrl: "/Smart Trash_home.webp",
+    imageUrl: "/smart_trash_home.webp",
     slug: "smart-trash-bins"
   },
   {

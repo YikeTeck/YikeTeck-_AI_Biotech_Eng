@@ -13,7 +13,7 @@ export const featuredProducts = [
       title: "超薄扬声器",
       description: "超薄音频扬声器，具有高级音质，带来完美的聆听体验。",
       category: "音频",
-      imageUrl: "/Super Flat Speaker_Home.webp",
+      imageUrl: "/super_flat_speaker_home.webp",
       slug: "super-flat-speakers"
     },
     {
@@ -21,7 +21,7 @@ export const featuredProducts = [
       title: "智能观察者",
       description: "智能技术，通过创新和直观的解决方案监控和管理您的家。",
       category: "物联网",
-      imageUrl: "/Smart_looker_home.webp",
+      imageUrl: "/smart_looker_home.webp",
       slug: "smart-looker"
     },
     {
@@ -29,7 +29,7 @@ export const featuredProducts = [
       title: "智能路灯",
       description: "低能耗城市照明，配备运动传感器和远程控制。",
       category: "智慧城市",
-      imageUrl: "/Smart Street lamps_home.webp",
+      imageUrl: "/smart_street_lamps_home.webp",
       slug: "smart-street-lamps"
     }
   ];
@@ -67,7 +67,7 @@ export const featuredProducts = [
       title: "智能垃圾箱",
       description: "智能城市垃圾管理创新，具有分析和优化功能。",
       category: "智慧城市",
-      imageUrl: "/Smart Trash_home.webp",
+      imageUrl: "/smart_trash_home.webp",
       slug: "smart-trash-bins"
     },
     {
