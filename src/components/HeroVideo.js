@@ -21,12 +21,9 @@ export default function HeroVideo({
           playsInline
           autoPlay
           loop
-          preload="metadata"
-        >
-          <source src="/YikeTeck_A_480.mp4" type="video/mp4" media="(max-width: 767px)" />
-          <source src="/YikeTeck_A_720.mp4" type="video/mp4" />
-          <source src="/YikeTeck_A.mp4" type="video/mp4" />
-        </video>
+          preload="none"
+          src="/YikeTeck_A_720.mp4"
+        />
         <div className="absolute inset-0 bg-gradient-to-b from-white/80 via-white/45 to-white/80" />
       </div>
 
