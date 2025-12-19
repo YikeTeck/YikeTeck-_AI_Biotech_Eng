@@ -1,20 +1,29 @@
-import Link from 'next/link';
+"use client";
+import { useEffect, useState } from "react";
 
 export default function HeroVideo({
-  title = 'AI proprietaria, biotecnologia, engineering e robotica.',
-  subtitle = 'Progettiamo sistemi di intelligenza artificiale, biotecnologia applicata e soluzioni di engineering per andare oltre lo standard, mantenendo sempre l’uomo al centro.',
-  titleClassName = 'text-3xl sm:text-5xl lg:text-6xl',
-  subtitleClassName = 'text-lg sm:text-xl',
+  title = "AI proprietaria, biotecnologia, engineering e robotica.",
+  subtitle = "Progettiamo sistemi di intelligenza artificiale, biotecnologia applicata e soluzioni di engineering per andare oltre lo standard, mantenendo sempre l uomo al centro.",
+  titleClassName = "text-3xl sm:text-5xl lg:text-6xl",
+  subtitleClassName = "text-lg sm:text-xl",
   taglineText,
   showTagline = false
 }) {
-  const finalTagline = taglineText || 'AI · Biotech · Engineering';
+  const finalTagline = taglineText || "AI - Biotech - Engineering";
+  const [videoSrc, setVideoSrc] = useState("/YikeTeck_A_720.mp4");
+
+  useEffect(() => {
+    const isMobile = window.matchMedia("(max-width: 767px)").matches;
+    setVideoSrc(isMobile ? "/YikeTeck_A_480.mp4" : "/YikeTeck_A_720.mp4");
+  }, []);
 
   return (
     <section className="relative w-full overflow-hidden bg-white text-yiketeck-dark">
       {/* Layer video di sfondo */}
       <div className="absolute inset-0">
         <video
+          key={videoSrc}
+          src={videoSrc}
           className="w-full h-full object-cover object-[50%_35%]"
           poster="/YikeTeck_A_poster.webp"
           muted
@@ -22,11 +31,7 @@ export default function HeroVideo({
           autoPlay
           loop
           preload="metadata"
-        >
-          <source src="/YikeTeck_A_480.mp4" type="video/mp4" media="(max-width: 767px)" />
-          <source src="/YikeTeck_A_720.mp4" type="video/mp4" />
-          <source src="/YikeTeck_A.mp4" type="video/mp4" />
-        </video>
+        />
         <div className="absolute inset-0 bg-gradient-to-b from-white/80 via-white/45 to-white/80" />
       </div>
 
@@ -45,7 +50,6 @@ export default function HeroVideo({
           <p className={`${subtitleClassName} text-yiketeck-dark/80 max-w-2xl`}>
             {subtitle}
           </p>
-
         </div>
       </div>
 
