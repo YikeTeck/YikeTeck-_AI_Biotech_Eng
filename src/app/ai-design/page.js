@@ -1,11 +1,11 @@
 import ProductLayout from '@/components/ProductLayout';
 
 const features = [
-  'Sistemi di AI basati su protocolli proprietari',
-  'Dataset curati e pipeline di addestramento/serving (MLOps)',
-  'Visione artificiale e AI audio per controllo qualità e analisi tecniche',
-  'Integrazione nativa con firmware, sensori e impianti industriali',
-  'Team specializzato per progetti end-to-end'
+  'Protocolli AI proprietari — progettati e brevettati internamente',
+  'Sistemi di conoscenza strutturata che operano in autonomia',
+  'Computer vision e audio AI per analisi industriale',
+  'Integrazione profonda con firmware, sensori e linee produttive',
+  'Dal prototipo alla fabbrica: un solo team, controllo totale'
 ];
 
 const images = [
@@ -21,38 +21,39 @@ const logos = [
 ];
 
 const intro = {
-  title: 'AI Design - Dalla visione ai sistemi',
+  title: 'Dove il proprietario incontra la produzione.',
   paragraphs: [
-    'Yike Teck progetta architetture di AI come infrastruttura centrale di prodotti, servizi e fabbriche. Non ci limitiamo ai modelli: costruiamo protocolli, dataset proprietari e pipeline MLOps per dare vantaggio reale in velocità, precisione e sicurezza.',
-    'Lavoriamo dal Guangdong, cuore della manifattura mondiale. Uniamo software, elettronica, robotica e biotech per portare l’AI dentro sensori, firmware, linee produttive e strumenti di laboratorio.',
-    'Da questa esperienza nascono le nostre piattaforme: ComplexDot per orchestrare conoscenza e decisioni su dati complessi, Clevidot per flussi tecnici e scientifici, Flomindy per allenare attenzione ed energia mentale delle persone che usano questi sistemi.',
-    'Il risultato è un delivery end-to-end: modelli proprietari, hardware e software pronti per la produzione, con onboarding rapido e governance dati chiara.'
+    "Yike Teck non assembla AI preconfezionata. Progettiamo architetture proprietarie da zero — protocolli, formati semantici e sistemi di produzione, tutti protetti da brevetti. Questa non è consulenza. Questa è ingegneria.",
+    "Il nostro lavoro si estende su più fronti: automazione industriale, biotecnologie, sistemi di conoscenza scientifica, performance cognitiva. Costruiamo modelli che risolvono problemi reali — non demo, non proof of concept. Sistemi che funzionano, che scalano, che reggono sotto carico produttivo.",
+    "Operiamo dal Guangdong, il cuore della manifattura globale. La nostra AI vive dentro firmware, sensori, linee produttive e strumenti di laboratorio. Capiamo le supply chain perché ci lavoriamo dentro.",
+    "Quello che vedete qui è lo strato visibile. Le piattaforme che mostriamo — ComplexDot, Clevidot, Flomindy — sono punti di ingresso verso un'architettura più profonda. Lo stack completo è protetto da brevetti e disponibile per partner selezionati.",
+    "Se avete visto il nostro lavoro di persona, sapete cosa intendiamo. Se non lo avete visto, questo è un invito a scoprirlo."
   ]
 };
 
 const mainSections = [
   {
-    title: 'Competenze e delivery',
+    title: 'Cosa costruiamo davvero',
     paragraphs: [
-      'Architetture su misura che combinano AI semantica, visione, audio e integrazione hardware, con servizi e documentazione pronti per l’adozione enterprise.'
+      'Architetture che combinano AI semantica, vision, audio e hardware — non demo, non proof of concept. Sistemi di produzione.'
     ],
     cards: [
       {
         title: 'Architetture AI',
         items: [
-          'Ontologie, knowledge graph e protocolli semantici',
-          'LLM personalizzati, prompt engineering e agent pipeline',
-          'Vision & audio AI per analisi tecniche e QA',
-          'Integrazione con firmware, sensori e sistemi industriali'
+          'Protocolli semantici proprietari e formati di conoscenza',
+          'Modelli custom, sistemi ad agenti e motori decisionali',
+          'Vision e audio AI per uso tecnico e industriale',
+          'Integrazione nativa con hardware e sistemi produttivi'
         ]
       },
       {
         title: 'Delivery',
         items: [
-          'Dataset curati e pipeline riproducibili',
-          'Modelli addestrati, documentati e versionati',
-          'Dashboard, API e integrazioni con i tuoi sistemi',
-          'Team specializzato per prototipi e produzione'
+          'Dataset strutturati per il vostro dominio',
+          'Modelli documentati, versionati, pronti per la produzione',
+          'API, dashboard e integrazioni con i vostri sistemi',
+          'Un solo team dal prototipo al deployment'
         ]
       }
     ]
@@ -64,17 +65,17 @@ const mainSections = [
       {
         title: 'ComplexDot',
         text:
-          'Motore semantico per dati complessi e decisioni operative: knowledge graph, orchestrazione di agenti e integrazione con sistemi industriali.'
+          'Produzione autonoma di conoscenza. Formato semantico brevettato. Intelligenza strutturata da dati complessi.'
       },
       {
         title: 'Clevidot',
         text:
-          'Piattaforma per flussi tecnici e scientifici: gestione di esperimenti, QA automatizzato, reportistica e integrazione con strumenti di laboratorio.'
+          "Automazione di workflow scientifici e tecnici. Dall'esperimento al report verificabile. Integrato con sistemi di laboratorio."
       },
       {
         title: 'Flomindy',
         text:
-          'Suite per il potenziamento cognitivo: routine brevi, percorsi audio e biofeedback per proteggere focus ed energia mentale dei team.'
+          'Piattaforma per la performance cognitiva. Training del focus, protocolli audio, biofeedback. Per gli umani che gestiscono le macchine.'
       }
     ]
   },
@@ -85,29 +86,29 @@ const mainSections = [
       {
         title: 'Integrazione reale',
         items: [
-          'Dai modelli al firmware: AI che vive dentro prodotti e macchinari',
-          'Supply chain e produzione in Cina con controllo diretto'
+          'AI che vive dentro prodotti e macchine — non solo API',
+          'Supply chain e produzione in Cina, sotto controllo diretto'
         ]
       },
       {
-        title: 'Governance e sicurezza',
+        title: 'IP protetta',
         items: [
-          'Dataset proprietari e protocolli di controllo accessi',
-          'Documentazione e trasferimento al team interno'
+          'Formati brevettati e protocolli proprietari',
+          'Documentazione completa e technology transfer disponibile'
         ]
       },
       {
-        title: 'Onboarding rapido',
+        title: 'Veloci in produzione',
         items: [
-          'Workshop iniziale su processi e dati',
-          'MVP in settimane, scaling con roadmap condivisa'
+          'Sistemi funzionanti in settimane, non mesi',
+          'Roadmap di scaling definita insieme'
         ]
       },
       {
-        title: 'Supporto continuo',
+        title: 'Partnership a lungo termine',
         items: [
-          'Monitoraggio modelli e drift',
-          'Aggiornamenti e nuovi feature su sprint concordati'
+          'Monitoraggio continuo e aggiornamenti dei modelli',
+          'Accesso diretto al team che lo ha costruito'
         ]
       }
     ]
@@ -118,8 +119,9 @@ export default function AIDesignPage() {
   return (
     <ProductLayout
       title="Sistemi AI & Protocol Design"
-      subtitle="Sviluppiamo modelli semantici, dataset proprietari e applicazioni cognitive per dati complessi."
+      subtitle="Architetture proprietarie. Formati brevettati. Sistemi di produzione — già operativi."
       features={features}
+      featuresTitle="Cosa portiamo"
       images={images}
       intro={intro}
       mainSections={mainSections}

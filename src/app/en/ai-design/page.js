@@ -1,11 +1,11 @@
 import ProductLayout from '@/components/ProductLayout';
 
 const features = [
-  'AI systems based on proprietary protocols',
-  'Curated datasets and training/serving pipelines (MLOps)',
-  'Computer vision and audio AI for quality control and technical analysis',
-  'Native integration with firmware, sensors and industrial plants',
-  'Specialized team for end-to-end projects'
+  'Proprietary AI protocols — designed and patented in-house',
+  'Structured knowledge systems that run autonomously',
+  'Computer vision and audio AI for industrial analysis',
+  'Deep integration with firmware, sensors and production lines',
+  'From prototype to factory: one team, full control'
 ];
 
 const images = [
@@ -21,38 +21,39 @@ const logos = [
 ];
 
 const intro = {
-  title: 'AI Design - From vision to systems',
+  title: 'Where proprietary meets production.',
   paragraphs: [
-    'Yike Teck designs AI architectures as the core infrastructure for products, services and factories. We do more than models: we build protocols, proprietary datasets and MLOps pipelines to deliver real advantages in speed, accuracy and safety.',
-    'We work from Guangdong, the heart of global manufacturing. We combine software, electronics, robotics and biotech to bring AI inside sensors, firmware, production lines and lab instruments.',
-    'From this experience come our platforms: ComplexDot to orchestrate knowledge and decisions on complex data, Clevidot for technical and scientific flows, Flomindy to train focus and mental energy for people using these systems.',
-    'The result is end-to-end delivery: proprietary models, hardware and software ready for production, with fast onboarding and clear data governance.'
+    "Yike Teck doesn't assemble off-the-shelf AI. We design proprietary architectures from scratch — protocols, semantic formats and production systems, all protected by patents. This is not consulting. This is engineering.",
+    "Our work spans multiple fronts: industrial automation, biotechnology, scientific knowledge systems, cognitive performance. We build models that solve real problems — not demos, not proofs of concept. Systems that run, that scale, that hold up under production load.",
+    "We operate from Guangdong, the heart of global manufacturing. Our AI lives inside firmware, sensors, production lines and laboratory instruments. We understand supply chains because we work inside them.",
+    "What you see here is the visible layer. The platforms we show — ComplexDot, Clevidot, Flomindy — are entry points into a deeper architecture. The full stack is protected by patents and available to selected partners.",
+    "If you've seen our work in person, you know what we mean. If you haven't, this is an invitation to find out."
   ]
 };
 
 const mainSections = [
   {
-    title: 'Skills and delivery',
+    title: 'What we actually build',
     paragraphs: [
-      'Custom architectures that combine semantic AI, vision, audio and hardware integration, with services and documentation ready for enterprise adoption.'
+      'Architectures that combine semantic AI, vision, audio and hardware — not demos, not proofs of concept. Production systems.'
     ],
     cards: [
       {
         title: 'AI architectures',
         items: [
-          'Ontologies, knowledge graphs and semantic protocols',
-          'Custom LLMs, prompt engineering and agent pipelines',
-          'Vision & audio AI for technical analysis and QA',
-          'Integration with firmware, sensors and industrial systems'
+          'Proprietary semantic protocols and knowledge formats',
+          'Custom models, agent systems and decision engines',
+          'Vision and audio AI for technical and industrial use',
+          'Native integration with hardware and production systems'
         ]
       },
       {
         title: 'Delivery',
         items: [
-          'Curated datasets and reproducible pipelines',
-          'Models trained, documented and versioned',
-          'Dashboards, APIs and integrations with your systems',
-          'Specialized team for prototypes and production'
+          'Datasets structured for your domain',
+          'Models documented, versioned, production-ready',
+          'APIs, dashboards and system integrations',
+          'One team from prototype to deployment'
         ]
       }
     ]
@@ -64,17 +65,17 @@ const mainSections = [
       {
         title: 'ComplexDot',
         text:
-          'Semantic engine for complex data and operational decisions: knowledge graph, agent orchestration and integration with industrial systems.'
+          'Autonomous knowledge production. Patented semantic format. Structured intelligence from complex data.'
       },
       {
         title: 'Clevidot',
         text:
-          'Platform for technical and scientific flows: experiment management, automated QA, reporting and integration with lab instruments.'
+          'Scientific and technical workflow automation. From experiment to auditable report. Integrated with laboratory systems.'
       },
       {
         title: 'Flomindy',
         text:
-          'Suite for cognitive enhancement: short routines, audio journeys and biofeedback to protect focus and mental energy of teams.'
+          'Cognitive performance platform. Focus training, audio protocols, biofeedback. For the humans running the machines.'
       }
     ]
   },
@@ -85,29 +86,29 @@ const mainSections = [
       {
         title: 'Real integration',
         items: [
-          'From models to firmware: AI living inside products and machines',
-          'Supply chain and production in China with direct control'
+          'AI that lives inside products and machines — not just APIs',
+          'Supply chain and production in China, under direct control'
         ]
       },
       {
-        title: 'Governance and security',
+        title: 'Protected IP',
         items: [
-          'Proprietary datasets and access control protocols',
-          'Documentation and handover to your internal team'
+          'Patented formats and proprietary protocols',
+          'Full documentation and technology transfer available'
         ]
       },
       {
-        title: 'Fast onboarding',
+        title: 'Fast to production',
         items: [
-          'Kick-off workshop on processes and data',
-          'MVP in weeks, scaling with a shared roadmap'
+          'Working systems in weeks, not months',
+          'Scaling roadmap defined together'
         ]
       },
       {
-        title: 'Continuous support',
+        title: 'Long-term partnership',
         items: [
-          'Model monitoring and drift control',
-          'Updates and new features on agreed sprints'
+          'Continuous monitoring and model updates',
+          'Direct access to the team that built it'
         ]
       }
     ]
@@ -118,9 +119,9 @@ export default function AIDesignPage() {
   return (
     <ProductLayout
       title="AI Systems & Protocol Design"
-      subtitle="We build semantic models, proprietary datasets and cognitive applications for complex data."
+      subtitle="Proprietary architectures. Patented formats. Production systems — already running."
       features={features}
-      featuresTitle="Key features"
+      featuresTitle="What we bring"
       images={images}
       intro={intro}
       mainSections={mainSections}
